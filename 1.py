@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # @Author  : Evil0ctal
-# @Time    : ${DATE} ${TIME}
+# @Time    : 2021/07/09
 # @Function:
 # Ask user input a number then output the result compare with 10
 
