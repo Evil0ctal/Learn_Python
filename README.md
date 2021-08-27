@@ -1,2 +1,2 @@
-# Eric_homework
-Eric_homework
+# Python codes
+[tests,home_works,fun_codes]
