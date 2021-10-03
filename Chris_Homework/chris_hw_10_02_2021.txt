@@ -1,0 +1,62 @@
+2021/10/02 Homework
+
+<Password Generator>
+
+Write a password generator in Python. Be creative with how you generate passwords - strong passwords have a mix of lowercase letters, uppercase letters, numbers, and symbols. The passwords should be random, generating a new password every time the user asks for a new password. Include your run-time code in a main method.
+
+Extra:
+
+Ask the user how strong they want their password to be. For weak passwords, pick a word or two from a list.
+Discussion
+There are no new topics this week, but you will need to use Python’s random module.
+
+<Fibonacc>
+
+Write a program that asks the user how many Fibonnaci numbers to generate and then generates them. Take this opportunity to think about how you can use functions. Make sure to ask the user to enter the number of numbers in the sequence to generate.(Hint: The Fibonnaci seqence is a sequence of numbers where the next number in the sequence is the sum of the previous two numbers in the sequence. The sequence looks like this: 1, 1, 2, 3, 5, 8, 13, …)
+
+Discussion
+Practice functions!
+
+<Reverse Word Order>
+
+Write a program (using functions!) that asks the user for a long string containing multiple words. Print back to the user the same string, except with the words in backwards order. For example, say I type the string:
+
+  My name is Michele
+Then I would see the string:
+
+  Michele is name My
+shown back to me.
+
+Discussion
+Concepts for this week:
+
+More string things
+More string things
+Python has a lot of interesting things you can do with strings. I will show a few here, but you can see many more methods that may or may not be useful at the official Python documentation about the string format.
+
+Remember that strings are lists.
+
+Splitting strings
+You can “split” or tear apart strings based on a given set of characters. For example:
+
+  teststring = "this is a test"
+  result = teststring.split("t")
+And at the end, result will contain the list:
+
+  ['', 'his is a ', 'es', '']
+Instead of "t", you can write any character you want. If you do not include any character, it means “split on all whitespace”:
+
+  teststring = "  this      has a lot    of   spaces and    tabs"
+  result = testring.split()
+Then result contains:
+
+  ['this', 'has', 'a', 'lot', 'of', 'spaces', 'and', 'tabs']
+Joining strings
+You can also relatively easily “join” or “smush” strings together:
+
+  listofstrings = ['a', 'b', 'c']
+  result = "**".join(listofstrings)
+Then result will contain the string:
+
+  a**b**c
+Take a look at the official Python documentation for more information.
