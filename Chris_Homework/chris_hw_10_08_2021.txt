@@ -1,0 +1,23 @@
+2021/10/09 Homework
+
+<Get your public IP>
+
+You need to use request library to send the request to a public website to get you ip address.
+
+The website has an open API that it automaticly give a a respone including you ip address , the format is Jason
+
+URL: https://www.myip.com/api-docs/
+
+example respone: {"ip":"98.47.234.67","country":"United States","cc":"US"}
+
+code example:
+
+import request
+import json
+
+url = "https://www.myip.com/api-docs/"
+
+..........................................
+
+-> Your IP address is: 98.47.234.67
+-> Your country is: United States
