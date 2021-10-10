@@ -21,3 +21,8 @@ url = "https://www.myip.com/api-docs/"
 
 -> Your IP address is: 98.47.234.67
 -> Your country is: United States
+
+_______________________________________________________________________________________________
+
+Go this website and do the quizzes
+Link: https://pynative.com/python/quizzes/
